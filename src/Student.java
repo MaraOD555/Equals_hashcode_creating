@@ -20,7 +20,7 @@ public class Student {
             return false;
         }
         Student student = (Student) o;
-        return age == student.age && name.equals(name); // проверка содержание переменных класса одинаковых значений
+        return age == student.age && name.equals(student.name); // проверка содержание переменных класса одинаковых значений
     }
     @Override
     public int hashCode(){
